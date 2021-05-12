@@ -5,5 +5,5 @@ play = ["Rock", "Paper", "Scissors"]
 computer = play[randint]
 print('Computer: {}'.format(computer))
 
-player = "Paper"
+player = input("Rock, Paper, Scissors? ")
 print('Player: {}'.format(player))
